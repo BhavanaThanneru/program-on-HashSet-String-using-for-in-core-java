@@ -1,0 +1,13 @@
+import java.util.HashSet;
+public class HashSetDemo8{
+    public static void main(String[] args){
+        HashSet<String> mySet = new HashSet<String>();
+        mySet.add("Hi");
+        mySet.add("Hello");
+        mySet.add("Nice to meet you");
+        mySet.add("100");
+        for(String s : mySet)
+        System.out.println(s);
+
+    }
+}
